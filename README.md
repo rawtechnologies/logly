@@ -38,7 +38,7 @@ Copy paste .env.dist to .env files in docker dir
 `docker exec -it logly_backend bash`
 
 #### Run migrations
-`bin/console doctrine:migrate`
+`bin/console doctrine:migrations:migrate`
 
 #### Load fixtures
 `bin/console doctrine:fixtures:load`
